@@ -1,0 +1,56 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 20px;
+    
+}
+
+#submitRequest {
+    color: white;
+    background-color: rgb(70, 70, 182);
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+body {
+    border: 1px solid blue;
+   
+}
+
+ul {
+    padding: 0px;
+    margin-left: 20px;
+}
+
+li {
+    border: 1px dotted blue;
+    list-style: none;
+    width: 75%;
+    margin-left: 20px;
+   
+}
+
+.request__delete {
+    background-color: purple;
+    color: white;
+    margin: 0 10px 8px 10px;
+}
+
+.request-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.topcontainer {
+	display: flex;
+    margin: 10px;
+}
+
+.completedRequestsBox {
+    background-color:rgb(171, 216, 243)
+}

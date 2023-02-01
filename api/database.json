@@ -1,0 +1,59 @@
+// terminal: json-server database.json -p 8088 -w
+
+
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "5",
+      "plumberId": "2",
+      "date_created": "Wed Feb 01 2023 10:14:46 GMT-0600 (Central Standard Time)",
+      "id": 1
+    },
+    {
+      "requestId": "6",
+      "plumberId": "1",
+      "date_created": "Wed Feb 01 2023 13:33:50 GMT-0600 (Central Standard Time)",
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "id": 2,
+      "description": "Flaga baba taydi rumpus unum e raga dada elisi.",
+      "address": "5467 Wayne's World",
+      "budget": 600,
+      "neededBy": "2023-2-30"
+    },
+    {
+      "description": "Stopped up sink",
+      "address": "612 Vantrease Rd.",
+      "budget": "200",
+      "neededBy": "2023-01-27",
+      "id": 3
+    },
+    {
+      "description": "Another need",
+      "address": "123 Main",
+      "budget": "400",
+      "neededBy": "2023-02-16",
+      "id": 5
+    },
+    {
+      "description": "My kenuter valve is clogged",
+      "address": "9282 Bridge St.",
+      "budget": "100",
+      "neededBy": "2023-02-17",
+      "id": 6
+    }
+  ]
+}
